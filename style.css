@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    height: 600px;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+
+.banner-contain {
+
+    padding: 100px;
+}
+
+.banner-contain h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80px;
+    color: azure;
+}
+
+.banner-contain p {
+    color: azure;
+}
+
+.banner-image img {
+    height: 581px;
+    width: 613px;
+}
+
+.watch {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #009500;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Watch-text,
+.Watch-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.Watch-icon {
+    font-size: 1.5em;
+}
+
+.match-Schedule-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+    min-height: 200px;
+}
+
+.btn-1 {
+    width: 220px;
+    height: 50px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 0 rgb(0, 0, 0);
+    transition: ease-in-out 0.3s;
+    font-size: 15px;
+    outline: none;
+}
+
+.btn-1:hover {
+    box-shadow: inset 300px 0 0 0 black;
+    cursor: pointer;
+    color: azure;
+}
+
+.btn-2 {
+    width: 220px;
+    height: 50px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 0 rgb(0, 0, 0);
+    transition: ease-in-out 0.3s;
+    font-size: 15px;
+    outline: none;
+}
+
+.btn-2:hover {
+    box-shadow: inset 300px 0 0 0 rgb(0, 0, 0);
+    cursor: pointer;
+    color: azure;
+}
+
+.btn-3 {
+    width: 220px;
+    height: 50px;
+    border: none;
+    color: rgb(0, 0, 0, );
+    background-color: rgb(223, 2, 2);
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 0 rgb(0, 0, 0);
+    transition: ease-in-out 0.3s;
+    font-size: 15px;
+    outline: none;
+}
+
+.btn-3:hover {
+    box-shadow: inset 300px 0 0 0 rgb(0, 0, 0);
+    cursor: pointer;
+    color: azure;
+}
+
+.blog-title {
+    border: 1px solid;
+    width: 20%;
+    text-align: center;
+
+}
+
+.blog-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
