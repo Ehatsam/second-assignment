@@ -82,7 +82,7 @@ body {
     height: 50px;
     border: none;
     color: rgb(0, 0, 0);
-    background-color: bisque;
+    background-color: rgb(194, 7, 7);
     border-radius: 5px;
     box-shadow: inset 0 0 0 0 rgb(0, 0, 0);
     transition: ease-in-out 0.3s;
@@ -120,7 +120,7 @@ body {
     height: 50px;
     border: none;
     color: rgb(0, 0, 0, );
-    background-color: rgb(223, 2, 2);
+    background-color: bisque;
     border-radius: 5px;
     box-shadow: inset 0 0 0 0 rgb(0, 0, 0);
     transition: ease-in-out 0.3s;
